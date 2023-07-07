@@ -1,17 +1,19 @@
-# policromia
+![Picsart_23-07-04_23-03-41-735](https://github.com/Arturo254/Awesomewm-Arch/assets/87346871/b629487c-eeee-4a10-ab95-825a2ca80b7b)
 
-<p align="center">
-  <img src="assets/cyberpunk.png" width="400" />
-  <img src="assets/dark.png" width="400" />
-  <img src="assets/light.png" width="400" />
-</p>
+# Awesomewm-Arch
+![VirtualBox_Arch_06_07_2023_20_05_55](https://github.com/Arturo254/Awesomewm-Arch/assets/87346871/e19ba6fe-fc50-42a9-aaf3-7f927d2ae63a)
+
+![VirtualBox_Arch_06_07_2023_20_06_20](https://github.com/Arturo254/Awesomewm-Arch/assets/87346871/c943728b-d09e-4321-8cac-62045629cce7)
+
+![VirtualBox_Arch_06_07_2023_20_06_201](https://github.com/Arturo254/Awesomewm-Arch/assets/87346871/48348cd1-dd33-400f-b256-7e85349aecd8)
+
+![VirtualBox_Arch_06_07_2023_20_07_04](https://github.com/Arturo254/Awesomewm-Arch/assets/87346871/9d0a65eb-b031-4228-9048-e0597d7867d4)
 
 ## Details
 
-- **OS:** [Arch Linux](https://archlinux.org)
+- **OS:** [Archcraft](https://archcraft.io)
 - **WM:** [awesome](https://github.com/awesomeWM/awesome)
 - **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
-- **Shell:** [zsh](https://www.zsh.org/)
 - **Editor:** [neovim](https://github.com/neovim/neovim)
 - **Compositor:** [picom](https://github.com/yshui/picom)
 - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
@@ -40,6 +42,20 @@ AwesomeWM Modules:
 
 ## Setup
 
+
+### Auto : 
+```
+git clone https://github.com/Arturo254/Awesomewm-Arch
+
+cd Awesomewm-Arch
+
+sudo chmod 777 *
+
+./install_paru.sh
+
+./install.sh
+```
+### MANUAL (RECOMENDADO) [SER USUARIO ROOT]:
 Using [paru](https://github.com/Morganamilo/paru) as the AUR helper
 
 ### Dependencies
@@ -56,7 +72,7 @@ paru -S \
 
 ```
 git clone --recurse-submodules https://github.com/mariv1k/policromia
-cd dotfiles
+cd policromia
 ```
 
 ### Install
